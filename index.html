@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .sidenavbar{
+        background-color: white;
+        height:1000px;
+        white: 100px;
+        position: fixed;
+        color: rgb(110, 111, 111);
+        font-weight: bold;
+    }
+    .somename{
+        margin-top: 100px;
+        padding-left: 60px;
+        margin-top: 120px;
+    }
+    .portfolio{
+        font-size: 10px;
+        padding-left: 60px;
+        margin-top: 50px;
+
+    }
+    .container{
+        display: flex;
+        position: fixed;
+        position: relative;
+    }
+    .sidemovingcontainer{
+        margin-left: 220px;
+    }
+    .button{
+        text-align: center;
+    }
+    .numbers{
+        height: 50px;
+        width:60px;
+        margin: 10px;
+        color: black;
+        background-color: white;
+        border: 0px;
+        font-weight: bold;
+    }
+    .numbers:hover{
+        background-color: black;
+        color: white;
+    }
+    .photos{
+       opacity: 0.8;
+       transition: all 1ms;
+    }
+    .photos:hover{
+        opacity: 1.5;
+    }
+    /* .techskills{
+        background-color: grey;
+        margin-left: 220px;
+    } */
+    .techskillscontainer{
+      background-color: rgb(145, 143, 143);
+    }
+    .techskills{
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    .Photography{
+        width: 95%;
+        background-color: aqua;
+        color: white;
+    }
+    .percentagediv{
+       background-color: white;
+       width:500px;
+
+    }
+    .percentage{
+           background-color: rgb(51, 51, 51);
+           width: 95%;
+           height: 30px;
+           text-align: center;
+           padding-top: 10px;
+           font-weight: bold;      
+    }
+    .webpage{
+        background-color: white;
+       width:500px;
+    }
+    .webpagepercentage{
+        background-color: rgb(51, 51, 51);
+           width: 85%;
+           height: 30px;
+           text-align: center;
+           padding-top: 10px;
+           font-weight: bold
+    }
+    .photoshop{
+        background-color: white;
+       width:500px;
+    }
+    .photoshoppercentage{
+        background-color: rgb(51, 51, 51);
+           width: 80%;
+           height: 30px;
+           text-align: center;
+           padding-top: 10px;
+           font-weight: bold
+    }
+    .aboutmain{
+        background-color: rgb(145, 143, 143);
+        margin-bottom: -25px;
+    }
+    .detailsaboutme{
+        padding-top: 10px;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    .download{
+        height: 50px;
+        width: 100px;
+        border: 0px;
+    }
+    .download:hover{
+        background-color: black;
+        color: white;
+    }
+   /* / */
+   .basic{
+    background-color: black;
+    color: white;
+    height: 70px;
+    width: 300px;
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: -15px;
+   }
+   /* .webdesign{
+    background-color: white;
+    height:50px;
+    width: 300px;
+    margin-bottom: -10px;
+    text-align: center;
+    mar
+   } */
+   .webdescription{
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    padding-top : 5px;
+   }
+   .signupbutton{
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-size: large;
+    border: 0px;
+    font-weight: bold;
+    margin-bottom: 8px;
+   }
+   .signupbutton:hover{
+    background-color: grey;
+    color: black;
+   }
+   .sidemovingdiv{
+    margin-left: 300px;
+    margin-right: 300px;
+   }
+   .mainboxes{
+    display: flex;
+   }
+   .boxes{
+    margin: 8px;
+    opacity: 0.7;
+   }
+   .boxes:hover{
+    opacity: 1;   
+
+   }
+   .much{
+    text-align: center;
+   }
+   .inputdetails{
+    height: 35px;
+    width: 500px;
+   }
+   .Contactmedetails{
+    margin-left: 308px;
+    margin-right: 300px;
+   }
+   .sendingbutton{
+    height: 50px;
+    width: 500px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+   }
+   .sendingbutton:hover{
+    background-color: grey;
+    color: black;
+    
+   }
+   .displayflex{
+    display: flex;
+    
+    height: 80px;
+    padding: 5px;
+    padding-top: 20px;
+    padding-left: 10px;
+    color: white;
+   }
+   .displayflex:hover{
+    background-color: black;
+   }
+   .Maindivforinfo{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: grey;
+    padding: 10px;
+   }
+   
+   .lorem{
+    width: 250px;
+    height: 50;
+   }
+   /* .loremhover{
+    background-color: black;
+   } */
+   .lastbutton{
+    background-color: black;
+    color: white;
+    height: 25px;
+    padding: 5px;
+   }
+   .footer{
+    background-color: black;
+    color: white;
+    height: 75px;
+    padding: 20px;
+    text-align: center;
+    padding-bottom: -25px;
+   }
+
+</style>
+
+<body>
+    
+        <div class="sidenavbar">
+            <div class="somename">
+                <h1> Some </h1>
+                <h1> Name </h1>
+            </div>
+            <div class="portfolio">
+                <h1> Portfolio </h1>
+                <h1> About Me </h1>
+                <h1> Contact </h1>
+            </div>
+        </div>
+
+
+        <div class="sidemovingcontainer">
+        <div class="container">
+            <div class="photos">
+            <img src="https://www.w3schools.com/w3images/natureboy.jpg" height="500px" width="400">
+           </div>
+           <div class="photos">
+            <img src="https://www.w3schools.com/w3images/boy.jpg" height="500px" width="400">
+           </div>
+           <div class="photos">
+            <img src="https://www.w3schools.com/w3images/girl.jpg" height="500px" width="400">
+           </div>
+        </div>  
+        <div class="container">
+            <div class="photos">
+            <img src="https://www.w3schools.com/w3images/girl_mountain.jpg" height="500px" width="400">
+           </div>
+           <div class="photos">
+            <img src="https://www.w3schools.com/w3images/man_bench.jpg" height="500px" width="400">
+           </div>
+           <div class="photos">
+            <img src="https://www.w3schools.com/w3images/girl_train.jpg" height="500px" width="400">
+           </div>
+        </div>  
+
+
+        <div class="container">
+            <div class="photos">
+            <img src="https://www.w3schools.com/w3images/girl.jpg" height="500px" width="400">
+           </div>
+           <div class="photos">
+            <img src="https://www.w3schools.com/w3images/man_bench.jpg" height="500px" width="400">
+           </div>
+           <div class="photos">
+            <img src="https://www.w3schools.com/w3images/closegirl.jpg" height="500px" width="400">
+           </div>
+        </div>
+
+        <div class="button">
+            <button class="numbers"> 1 </button> <button class="numbers"> 2 </button> <button class="numbers"> 3 </button> <button class="numbers"> 4 </button> <button class="numbers"> 5 </button>
+        </div>
+
+        <div class="aboutmain">
+        <div class="detailsaboutme">
+           <h1 style="color:white;"> About me </h1>
+           <img src="https://www.w3schools.com/w3images/avatar_hat.jpg" height="600px" width="500px">
+           <p style="color: white;"> My Name </p>             
+           <p style="color: white;"> Some text about me. I love taking photos of PEOPLE. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+           <p style="color: white;"> mail: example@example.com </p>
+           <p style="color: white;"> tel: 5353 35531 </p>
+           <hr>
+        </div>
+    </div>
+       <div class="techskillscontainer">
+        <div class="techskills">
+         <h1 style="color: white;"> Technical Skills </h1>
+         <p style="color: white; font-family: sans-serif;"> Photography </p>  
+          <p> photograph</p>
+         <div class="percentagediv">
+        <p class="percentage"> 95%</p>
+        </div>
+
+        <div>
+            <p> Web Design </p>
+            <div class="webpage">
+            <p class="webpagepercentage">  85% </p>
+           </div>
+         
+         <div>
+            <p> Photo Shop </p>
+            <div class="photoshop">
+            <p class="photoshoppercentage"> 80%  </p>
+           </div>
+         </div>
+        
+        <div>
+            <button class="download"> Download  </button>
+        </div>
+    </div>
+</div>
+        <hr> 
+            <div class="sidemovingdiv">
+             <h1 class="much">Ho much I charge  </h1>
+             <div class="mainboxes">
+                <div class="boxes">
+                    <h1 class="basic"> Basic </h1>
+                    <div class="webdescription">
+                    <p class="webdesign"> Web design </p>
+                    <hr>
+                    <p> Photography </p>
+                    <hr>
+                    <p> 5 gb Stoarge </p>
+                    <hr> 
+                    <p> Mail support</p>
+                    <hr> 
+                    <h1> $ 10 </h1>
+                    <p> Per month </p>
+                    <hr> 
+                    <button class="signupbutton"> Sign up </button>
+                </div>
+                </div>
+
+                <div class="boxes">
+                    <h1 class="basic"> Basic </h1>
+                    <div class="webdescription">
+                    <p class="webdesign"> Web design </p>
+                    <hr>
+                    <p> Photography </p>
+                    <hr>
+                    <p> 50 gb Stoarge </p>
+                    <hr> 
+                    <p> Endless support</p>
+                    <hr> 
+                    <h1> $ 25 </h1>
+                    <p> Per month </p>
+                    <hr> 
+                    <button class="signupbutton"> Sign up </button>
+                </div>
+                </div>
+             </div>
+            </div>
+        </div>
+            <div class="Contactmedetails">
+                <h1> Contact me </h1>
+                <p> Do you want me to photograph you? Fill out the form and fill me in with the details :) I love meeting new people!</p>
+                <p> Name </p>
+                <input type="text" class="inputdetails">
+                <p> Email</p>
+                <input type="text" class="inputdetails"> 
+                <p> Message </p>
+                <input type="text" class="inputdetails">
+                <button class="sendingbutton"> Send button </button>
+            </div>
+            <div class="Maindivforinfo">
+                <div>
+                    <h1> INFO </h1>
+                    <p> Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. </p>
+                </div>
+                <div>
+                    <h1> BLOG POSTS </h1>
+                    <div class="displayflex">
+                       <div>
+                        <img src="https://www.w3schools.com/w3images/workshop.jpg" height="60" width="60">
+                       </div>
+                       <div class="lorem">
+                           <p style="padding-left: 30px; margin-top: -1px;"> Lorem </p>
+                           <p style="padding-left: 30px;"> Sed mattis nunc</p>
+                        </div>
+                    </div>
+                   <hr>
+                    <div class="displayflex">
+                        <div>
+                         <img src="https://www.w3schools.com/w3images/gondol.jpg" height="60" width="60">
+                        </div>
+                        <div>
+                            <p style="padding-left: 30px; margin: -1px;"> Ipsum </p>
+                            <p style="padding-left: 30px;"> Praes tinci sed </p>
+                         </div>
+                        </div>
+                </div>
+                <div>
+                    <h1> POPULAR TAGS </h1>
+                    <div>
+                        <button class="lastbutton"> Travel </button>
+                        <button class="lastbutton"> Newyork </button>
+                        <button class="lastbutton"> London </button>
+                        <button class="lastbutton"> Ikea </button>
+                        <button class="lastbutton"> Norway </button>
+                        <button class="lastbutton"> DIY </button>
+                        <button class="lastbutton"> Ideas </button>
+                        <button class="lastbutton"> Baby </button>
+                        <button class="lastbutton"> Family </button>
+                        <button class="lastbutton"> New Clothing </button>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <p> Powered By W3.school </p>
+            </footer>
+    </body>
+</html>
